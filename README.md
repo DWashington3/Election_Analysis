@@ -2,13 +2,13 @@
 The purpose of this audit is to automate the analysis of a US congressional election in Colorado. I’ve been tasked with reporting the vote count of the election results. The election audit includes total votes, total number of votes for each candidate, the percentage of votes per candidate, the total number of votes per county, the percentage of votes per county, and the winner of the election based on the popular vote.
 
 ## Election Audit Results
-A total of 369,711 votes were casted making Diana DeGette is the winner, and Denver county the couty with the largest voter turnout.
+A total of 369,711 votes were casted resulting in Diana DeGette as the winning candidate, and Denver county the couty with the largest voter turnout.
 ### Election Audit image
 <img width="188" alt="election_audit_results" src="https://user-images.githubusercontent.com/87162266/133898646-de0d7911-b1bc-45eb-9a8e-84a2ffae9d1a.PNG">
 
 ### Election Audit Code
 
-I refracted this code by creating an if statement that tracked each unique county's name and vote count. After, the text file is now opened to print the total number of votes from the election. Within that ", with" statement I created another for loop that calculates the percentage of votes in each county. In the for loop, I created two if statements that defined the county with the winning percentage, and the county with the greatest number of votes.
+I refracted this [code](https://github.com/DWashington3/Election_Analysis/blob/0e69df151c9b605937a95ce50e95b402bd464828/PyPoll_Challenge.py) by creating an if statement that tracked each unique county's name and vote count. After, the text file is now opened to print the total number of votes from the election. Within that ", with" statement I created another for loop that calculates the percentage of votes in each county. In the for loop, I created two if statements that defined the county with the winning percentage, and the county with the greatest number of votes.
 
 
 
